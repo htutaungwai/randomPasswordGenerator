@@ -9,5 +9,10 @@ def generate_password(length, use_digits, use_special):
     special = string.punctuation if use_special else ""
     all_chars = letters + digits + special
 
-print("hello  world")
-print(length)
+    print(digits)
+    print (all_chars)
+
+generate_password(12, True, False)
+
+
+
